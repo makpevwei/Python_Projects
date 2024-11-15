@@ -4,7 +4,7 @@ import time
 now = time.strftime("%b %d, %Y %H:%M:%S")
 
 # Default file path for storing todos
-FILEPATH = "todos.txt"
+FILEPATH = "./cli_apps/todos.txt"
 
 
 def read_from_todos(file_path=FILEPATH):
